@@ -12,6 +12,9 @@ behavior of web pages,
 4. An introduction to reusing othe code to make API calls to demonstrate the tremondous 
 leverage of API-based programming.
 
+##Preparation
+
+Instal [node](http://nodejs.org)
 
 ##Summary of Lessons
 

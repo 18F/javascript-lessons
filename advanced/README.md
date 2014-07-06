@@ -12,6 +12,10 @@ for the Dawn of Time---**functional programming**.
 
 This is my feeble attempt to teach you the deepest magic I know.
 
+##Preparation
+
+Instal [node](http://nodejs.org)
+
 ##Summary of Lessons
 
 ###Fold
