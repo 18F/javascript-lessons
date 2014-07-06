@@ -14,7 +14,11 @@ This is my feeble attempt to teach you the deepest magic I know.
 
 ##Preparation
 
-Instal [node](http://nodejs.org)
+Install [node](http://nodejs.org)
+
+npm install node
+npm install -g mocha
+
 
 ##Summary of Lessons
 
