@@ -1,4 +1,5 @@
 var fold = require("./fold")
+var map = require("./map")
 
 exports.concat = function (list) {
     return fold.foldl(function (a,b) { return a+b; },list,"");
@@ -14,6 +15,12 @@ exports.product = function (list) {
 
 exports.maxNum = function (list) {
     return fold.foldl(function (a,b) { if (a > b) { return a; } else { return b; } },list,Number.MIN_VALUE);
+}
+
+exports.rms = function (list) {
+    return Math.sqrt(fold.foldl(function (a,b) { return a+b; },
+				map.map(function (a) {return a*a;},list),
+				0));
 }
 
 // console.log(exports.concat(["a","b","c"]));

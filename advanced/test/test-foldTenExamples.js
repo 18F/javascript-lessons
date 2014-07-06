@@ -30,4 +30,11 @@ describe('foldTen', function(){
     })
   })
 
+  describe('#foldTenConcat', function(){
+    it('rms num works', function() {
+	list = [10,12,14]
+        assert.equal(foldTen.rms(list),Math.sqrt(100+144+14*14));
+    })
+  })
+
 })
