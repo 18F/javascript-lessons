@@ -30,9 +30,14 @@ in the form of *map reduce*.
 
 The first exercise is to write [fold](http://en.wikipedia.org/wiki/Fold_(higher-order_function)).
 
+###Map
+
+**Map** is in a way simpler than **fold**.  Map is a function which takes an arbitrary unary 
+function and applies it to every element of an array.
+
 ###TenExamplesOfFold
 
-Write ten realistic and valuable examples of fold.
+Write ten realistic and valuable examples of *fold*.  You may use *map* in these examples.
 
 ###LeftVsRight
 
