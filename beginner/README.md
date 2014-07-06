@@ -52,7 +52,18 @@ Javascript provides ways to inspect and manipulate the DOM.
 
 Your exercise is to make the header, which says "Hello, World!" to say "I am cool!"
 
+###IAmASynonymOfCool.html
 
+Use the BigHugeLabs restful API (Application Programming Interface) to randomly select adjectival synonyms to the word "Cool" for 
+you to be.  This means usign AJAX and JSON.
+
+Thanks to Big Huge Labs, there is an online Thesaurus that can be used for a limited number
+of times per day freely:
+
+https://words.bighugelabs.com
+
+They provide an API that requires a key.  Your exercise is to obtain a key and write a program
+that uses their API to obtain a synonym for "Cool".
 
 
 
