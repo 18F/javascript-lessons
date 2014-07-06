@@ -1,0 +1,18 @@
+<html>
+  <h1 id="helloworldheader">
+    Hello, World!
+  </h1>
+</html>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+  var el = document.getElementById("#helloworldheader");
+  var word = "cool";
+  $.ajax({url:"http://localhost:3000/synonym1/"+word,
+     success:function(result){
+        alert("Are you ready for this?");
+        $("#helloworldheader").html("You are so "+result+"!");
+     }
+  });
+
+</script>

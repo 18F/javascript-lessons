@@ -65,5 +65,22 @@ https://words.bighugelabs.com
 They provide an API that requires a key.  Your exercise is to obtain a key and write a program
 that uses their API to obtain a synonym for "Cool".
 
+Unfortunately, it is not clear that bighugelabs supports CORS --- which means that because
+of the "same source origin policy", we can't do this entirely with client-side programming.
+
+Therefore, this is a great excuse to implement our own server and our own api.
+
+Go into the api-server directory and enter:
+
+sudo npm install
+
+Then start this server in a shell with "npm start".
+
+Then we can use AJAX as demonstrated in IAmASynonymOfCool.html. The server ALSO makes and AJAX call.
+So this both gets a little complicated, and demonstrated a way we can directly use work that 
+someone else has done without even using their code.
+
+
+
 
 

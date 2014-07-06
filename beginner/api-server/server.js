@@ -9,7 +9,7 @@ app.get('/synonym1/:word', function(req, res){
     // "Mojosa!" is the Esperanto synonym for "cool"
     var result = "";
     if (req.params.word == "cool") {
-       result = "Mojosa!";
+       result = "Mojosa";
     } else {
        result = "no synonym known for:"+req.params.word;
     }
