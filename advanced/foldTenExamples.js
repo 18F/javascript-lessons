@@ -28,4 +28,6 @@ exports.boolAnd = function (list) {
 		      list,
 		      true);
     }
+
+
 // console.log(exports.concat(["a","b","c"]));
