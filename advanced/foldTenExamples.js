@@ -23,4 +23,9 @@ exports.rms = function (list) {
 				0));
 }
 
+exports.boolAnd = function (list) {
+    return fold.foldl(function (a,b) { return a && b;},
+		      list,
+		      true);
+    }
 // console.log(exports.concat(["a","b","c"]));

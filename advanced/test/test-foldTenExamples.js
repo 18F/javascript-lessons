@@ -1,6 +1,7 @@
 var assert = require("assert")
 var foldTen = require("../foldTenExamples")
 var fold = require("../fold")
+var map = require("../map")
 
 describe('foldTen', function(){
   describe('#foldTenConcat', function(){
@@ -34,6 +35,14 @@ describe('foldTen', function(){
     it('rms num works', function() {
 	list = [10,12,14]
         assert.equal(foldTen.rms(list),Math.sqrt(100+144+14*14));
+    })
+  })
+
+  describe('#foldTenConcat', function(){
+    it('boolAnd  works', function() {
+	list = [10,12,14]
+        assert.equal(foldTen.boolAnd(map.map(function (a) { return a > 11; },list)),false);
+        assert.equal(foldTen.boolAnd(map.map(function (a) { return a > 9; },list)),true);
     })
   })
 
