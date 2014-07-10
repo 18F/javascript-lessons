@@ -8,7 +8,6 @@ describe('parse', function(){
   describe('#parse', function(){
     it('parse reknits correctly', function() {
 	var arr = parse.parse(parse.s1);
-	console.log(arr);
 	var reknit = parse.convertToString(arr);
         assert.equal(parse.s1,reknit);
     })
