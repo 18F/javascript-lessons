@@ -57,7 +57,14 @@ Write ten realistic and valuable examples of *fold*.  You may use *map* in these
 
 Find a realistic example that proves that foldl is not the same as foldr.
 
+###ParseASentence
+
+Write a functiont that converts a sentence to an array of tokens, where the words are tokens, and simple punctuation marks like commmas and periods are also tokens.
+
+
 ###FunLanguageProcessing.
+
+Parse and reknit sentences.
 
 Write a function name *hemingway* that takes a sentence which as compound and returns 
 two sentences.  Write a function *jackson* that takes two simple sentences and returns a compound 
