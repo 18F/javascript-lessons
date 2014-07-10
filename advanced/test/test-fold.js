@@ -1,5 +1,5 @@
 var assert = require("assert")
-var fold = require("../solutions/fold")
+var fold = require("../fold")
 
 describe('foldl', function(){
   describe('#indexOf()', function(){
