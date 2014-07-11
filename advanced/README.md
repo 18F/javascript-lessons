@@ -37,6 +37,12 @@ The first exercise is to write [fold](http://en.wikipedia.org/wiki/Fold_(higher-
 **Map** is in a way simpler than **fold**.  Map is a function which takes an arbitrary unary 
 function and applies it to every element of an array.
 
+Write map three different ways:
+
+1. Using forEach (easy) (call it `map`)
+2. Recursively with an accumulator (intermediate) (call it `recursiveMap1`)
+3. Recursively without an accumulator (somewhat more difficult) (call it `recursiveMap2`)
+
 ###Accumulation
 
 Purely functional programming is very beatiful, but sometimes it requires an extension of parameters and results
